@@ -12,6 +12,6 @@ describe('Validate Header', ()=>{
           .should((abilities) => {
             const abilityNames = abilities.map((a) => a.ability.name);
             expect(abilityNames).to.include('limber');
-          })
+        })
     })
 })
